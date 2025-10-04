@@ -1,0 +1,226 @@
+h1{
+    color: rgb(52, 9, 9);
+    font-weight: bold;
+    border: 8px solid rgb(52, 9, 9);
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgb(251, 251, 251);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.photo{
+    width:40%;
+    height: 80%;
+    float: left;
+    margin: 10px;
+    border: 2px solid rgb(52, 9, 9);
+    border-radius: 70%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(141, 141, 141);
+    height: 386vh;
+    margin: 0%;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.intro{
+    width: 50%;
+    height: 420px;
+    background-color: white;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(52, 9, 9);
+}
+
+.education{
+    width: 50%;
+    height: 420px;
+    background-color: white;
+    border: 5px solid rgb(0, 0, 0) ;
+    border-radius: 10px;
+    color: rgb(52, 9, 9);
+}
+
+h2{
+    font-size: 25px;
+    background-color: #002049;
+    text-align: center;
+    margin: 0%;
+    display: block;
+    font-family: "Michroma",sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.p1{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: "Amaranth";
+}
+
+.p2{
+    font-size: 25px;
+    font-family: "Amaranth";
+    flex-grow: 1;
+    color: rgb(52, 9, 9);
+    font-weight: bold;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    margin-top: 20px;
+    height: 200vh;
+    gap: 0px;
+}
+
+#images{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.outlook{
+    overflow: hidden;
+}
+
+#p{
+    border: 5px solid rgb(52,9,9);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.first{
+    grid-area: 1/1/2/3;
+}
+
+.second{
+    grid-area: 1/3/2/5;
+    overflow: hidden;
+}
+
+.third{
+    grid-area: 2/1/3/3;
+    overflow: hidden;
+}
+
+.fourth{
+    grid-area: 2/3/3/5;
+}
+
+.fifth{
+    grid-area: 3/1/4/3;
+}
+
+.sixth{
+    grid-area: 3/3/4/5;
+    overflow: hidden;
+}
+
+.photo1{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+footer{
+    text-align: center;
+    color: rgb(52, 9, 9);
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 2px solid rgb(52, 9, 9);
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 50vh;
+    margin-top: 20px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#coloring{
+    background-color: white;
+    flex-grow: 1;
+    border: 4px solid rgb(52, 9, 9);
+    border-radius: 10px;
+    width: 33.3%;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.p3{
+    font-size: 20px;
+    color: rgb(52, 9, 9);
+    font-weight: bold;
+    font-family: "Amaranth";
+}
+
+.pythond{
+    margin-top: 10px;
+}
+
+.experience{
+    background-color: white;
+    border: 4px solid rgb(52, 9, 9);
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.p4{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: "Amaranth";
+    font-weight: bold; 
+}
+
+.fl{
+    color: black;
+    font-family: "Amaranth";
+}
+
+.body{
+    padding: 0%;
+}
+
+button{
+    background-color: rgb(52,9,9);
+    font-weight: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: "Amaranth";
+}
+
+.button{
+    text-align: center;
+    background-color: rgb(125, 125, 125);
+    border: 2px solid rgb(125, 125, 125);
+    border-radius: 5px;
+}
